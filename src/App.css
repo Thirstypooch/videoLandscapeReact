@@ -6,7 +6,7 @@
 }
 
 .home,
-.misión,
+.mision,
 .products,
 .packs,
 .limpieza,
@@ -23,8 +23,8 @@
   src: local('Rafale-BG'), url(./fonts/Rafale-BG.ttf) format('truetype');
 }
 
-/* .services {
-  background-image: url('/images/img-2.jpg');
+.products {
+  background-image: url('/images/products.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,8 +32,8 @@
   font-size: 100px;
 }
 
-.products {
-  background-image: url('/images/img-1.jpg');
+.limpieza {
+  background-image: url('/images/limpiezaPage.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -41,11 +41,29 @@
   font-size: 100px;
 }
 
-.sign-up {
-  background-image: url('/images/img-8.jpg');
+.packs {
+  background-image: url('/images/packs.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-} */
+}
+
+.mision {
+  background-image: url('/images/misionPage.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} 
+
+.blog {
+  background-image: url('/images/blogPage.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}

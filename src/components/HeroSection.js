@@ -7,8 +7,8 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='/videos/video-3.mp4' autoPlay loop muted />
-      <h1>Creamos productos naturales para el cuidado de la piel</h1>
-      <p>creemos en el poder de lo natural</p>
+      <h1>title</h1>
+      <p>Creemos en el poder de lo natural</p>
       <div className='hero-btns'>
         <Button
           className='btns'

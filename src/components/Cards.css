@@ -1,6 +1,6 @@
 .cards {
   padding: 4rem;
-  background: #FCF3E8;
+  background: #fcf3e8;
 }
 
 h1 {
@@ -63,10 +63,10 @@ h1 {
   margin-left: 10px;
   padding: 6px 8px;
   max-width: calc((100%) - 60px);
-  font-size: 12px;
+  font-size: 38px;
   font-weight: 700;
-  color: #fff;
-  background-color: #1f98f4;
+  color: #100f0f;
+
   box-sizing: border-box;
 }
 
@@ -95,8 +95,9 @@ h1 {
 
 .cards__item__text {
   color: #252e48;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 24px;
+  font-family: 'Rafale-BG';
 }
 
 @media only screen and (min-width: 1200px) {
