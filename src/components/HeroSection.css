@@ -19,17 +19,19 @@ video {
 }
 
 .hero-container > h1 {
-  color: #fff;
-  font-size: 80px;
+  color: #FCF3E8;
+  font-size: 32px;
   margin-top: -100px;
   text-align: center;
+  font-family: 'Rafale-BG';
 }
 
 .hero-container > p {
   margin-top: 8px;
-  color: #fff;
+  color: #FCF3E8;
   font-size: 32px;
-  font-family: 'Mr Dafoe', cursive;
+  font-family: 'Rafale-BG';
+  text-align: center;
 }
 
 .hero-btns {
@@ -38,6 +40,7 @@ video {
 
 .hero-btns .btn {
   margin: 6px;
+  font-family: Rafale;
 }
 
 .fa-play-circle {

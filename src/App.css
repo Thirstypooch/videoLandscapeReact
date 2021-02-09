@@ -18,6 +18,11 @@
   font-size: 3rem;
 }
 
+@font-face {
+  font-family: 'Rafale';
+  src: local('Rafale-BG'), url(./fonts/Rafale-BG.ttf) format('truetype');
+}
+
 /* .services {
   background-image: url('/images/img-2.jpg');
   background-position: center;
