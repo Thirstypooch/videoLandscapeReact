@@ -24,7 +24,7 @@
 }
 
 .products {
-  background-image: url('/images/products.jpg');
+  background-image: url('./images/products.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@
 }
 
 .limpieza {
-  background-image: url('/images/limpiezaPage.jpg');
+  background-image: url('./images/limpiezaPage.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -42,7 +42,7 @@
 }
 
 .packs {
-  background-image: url('/images/packs.jpg');
+  background-image: url('./images/packs.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -51,7 +51,7 @@
 }
 
 .mision {
-  background-image: url('/images/misionPage.jpg');
+  background-image: url('./images/misionPage.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@
 } 
 
 .blog {
-  background-image: url('/images/blogPage.jpg');
+  background-image: url('./images/blogPage.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
