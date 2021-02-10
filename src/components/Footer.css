@@ -164,3 +164,9 @@
 
 @media screen and (max-width: 768px) {
 }
+
+@media screen and (max-width: 812px) {
+  .footer-links {
+    margin-left: 35px;
+  }
+}

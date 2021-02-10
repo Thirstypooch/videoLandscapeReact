@@ -31,32 +31,32 @@ function Navbar() {
             You Organic Skincare
           </Link>
           <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            <i className={click ? 'fas fa-angle-double-up' : 'fas fa-angle-double-down fa-sm'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/misión' className='nav-links' onClick={closeMobileMenu}>
-              <i className="fas fa-american-sign-language-interpreting fa-2x"></i>
+              <i className="fas fa-american-sign-language-interpreting fa-lg"></i>
               </Link>
             </li>
             <li className='nav-item'>
               <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
-              <i className="fas fa-barcode fa-2x"></i>
+              <i className="fas fa-barcode fa-lg"></i>
               </Link>
             </li>
             <li className='nav-item'>
               <Link to='/packs' className='nav-links' onClick={closeMobileMenu}>
-              <i className="fas fa-dolly-flatbed fa-2x"></i>
+              <i className="fas fa-dolly-flatbed fa-lg"></i>
               </Link>
             </li>
             <li className='nav-item'>
               <Link to='/limpieza' className='nav-links' onClick={closeMobileMenu}>
-              <i className="fas fa-leaf fa-2x"></i>
+              <i className="fas fa-leaf fa-lg"></i>
               </Link>
             </li>
             <li className='nav-item'>
               <Link to='/blog' className='nav-links' onClick={closeMobileMenu}>
-                <i className='far fa-comment-dots fa-2x'></i>
+                <i className='far fa-comment-dots fa-lg'></i>
               </Link>
             </li>
           </ul>

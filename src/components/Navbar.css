@@ -1,5 +1,5 @@
 .navbar {
-  background: #DCC5D1;
+  background: #dcc5d1;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -60,11 +60,12 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #FCF3E8;
+  border-bottom: 4px solid #fcf3e8;
   transition: all 0.2s ease-out;
 }
 
-.fa-bars {
+.fa-angle-double-up,
+.fa-angle-double-down {
   color: #fff;
 }
 
@@ -75,7 +76,6 @@
 .menu-icon {
   display: none;
 }
-
 
 @media screen and (max-width: 960px) {
   .NavbarItems {
@@ -95,7 +95,7 @@
   }
 
   .nav-menu.active {
-    background: #DCC5D1;
+    background: #D3B3BC;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -111,7 +111,7 @@
   }
 
   .nav-links:hover {
-    background-color: #FCF3E8;
+    background-color: #fcf3e8;
     color: #242424;
     border-radius: 0;
   }
@@ -134,11 +134,13 @@
     cursor: pointer;
   }
 
-  .fa-times {
-    color: #fff;
-    font-size: 2rem;
+  .fa-angle-double-down {
+    margin-top: 10px;
   }
 
+  .fa-angle-double-up {
+    margin-top: 10px;
+  }
   .nav-links-mobile {
     display: block;
     text-align: center;
@@ -158,5 +160,29 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .nav-menu {
+    height: 90vh;
+  }
+
+  .navbar-logo {
+
+    margin-left: -10px;
+
+  }
+
+  .fa-angle-double-down {
+    margin-top: 10px;
+  }
+
+  .fa-angle-double-up {
+    margin-top: 10px;
+  }
+
+  .fa-american-sign-language-interpreting {
+    margin-top: 25px;
   }
 }
