@@ -23,6 +23,7 @@
   src: local('Rafale-BG'), url(./fonts/Rafale-BG.ttf) format('truetype');
 }
 
+
 .products {
   background-image: url('/images/products.jpg');
   background-position: center;
